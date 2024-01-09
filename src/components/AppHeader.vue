@@ -1,6 +1,10 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue'
 export default {
   name: 'AppHeader',
+  components: {
+    AppJumbotron
+  },
   data() {
     return {
       menu: [
@@ -87,6 +91,7 @@ export default {
       </ul>
 
     </div>
+    <AppJumbotron />
   </header>
 </template>
 
